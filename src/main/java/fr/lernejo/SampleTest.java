@@ -6,5 +6,5 @@ class SampleTest {
 void add_behave_as_expected() {
     int result = new Sample .op(Sample.Operation.ADD, a=3, b=5);
 
-    Assertions.assertThat(result).isEqualto(6); }
+    Assertions.assertThat(result).isEqualto(7); }
 }
